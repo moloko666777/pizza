@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Pizza-Product</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./build/css/app.css">
+    <link rel="shortcut icon" href="./build/img/favicon.ico" type="image/x-icon">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body>
+<header>
+    <!--        <div class="test wow animate__animated  animate__jello">-->
+    <!--                <p>HELP</p>-->
+    <!--        </div>-->
+    <div class="header-wrapper">
+        <div class="container header">
+            <div class="header__logo">
+                <a href="/index.html">
+                    <img src="././assets/images/image.webp">
+                </a>
+                <div class="change-language-mobile">
+                    <div>
+                        <button>UA</button>
+                    </div>
+                    <div>
+                        <button>ENG</button>
+                    </div>
+                </div>
+            </div>
+            <div class="header__contact-links">
+                <div>
+                    <ul>
+                        <li>
+                            <a href="tel:0631212457">0631212457</a>
+                        </li>
+                        <li>
+                            <a href="tel:0631212457">0631212457</a>
+                        </li>
+                        <li>
+                            <a href="tel:0631212457">0631212457</a>
+                        </li>
+                        <li>
+                            <a href="/contact">Контакти</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__change-language">
+                    <button>UA</button>
+                    <button>ENG</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container header__categories-wrapper">
+        <div class="header__categories">
+            <a class="header__categories-link">🍕 Піца</a>
+            <a class="header__categories-link">🥗 Салати</a>
+            <a class="header__categories-link">🍣 Суші роли</a>
+            <a class="header__categories-link">🍟 Гарячі</a>
+            <a class="header__categories-link">🍲Супи</a>
+            <a class="header__categories-link">🍰Десерти</a>
+            <a class="header__categories-link">🍺Напої</a>
+            <a class="header__categories-link">💲SALE</a>
+            <a class="header__categories-link">☝Акція 1+1 в ресторані</a>
+            <a class="header__categories-link">🍹Замовлення у ресторані</a>
+            <a class="header__categories-link">🍹Замовлення у ресторані</a>
+            <a class="header__categories-link">🍹Замовлення у ресторані</a>
+        </div>
+    </div>
+
+</header>
+<main>
+    <section class="container">
+        <div class="breadcrumbs">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="active" href="#">Піца</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="container product__section">
+        <div class="title">
+            <h2>🍕 Піца</h2>
+        </div>
+
+        <div class="product-page">
+            <div class="product-page__image">
+                <img src="./assets/images/pizza.webp" alt="pizza"/>
+            </div>
+            <div class="product-page__text-wrapper">
+                <div class="product-page__text">
+                    <div class="product-page__title">
+                        <p>Піца 4 Сира</p>
+                        <span>соус білий, сир моцарела, сир  гауда, сир горгондзола блю, сир пармезан, орегано сухий</span>
+                    </div>
+                    <div class="product-page__check-box-round-wrapper">
+                        <p>обери розмір</p>
+                        <span>Виберіть 1 варіант</span>
+                        <div class="product-page__check-box-round">
+                            <div class="round">
+                                <input type="radio" name="field" id="mc1">
+                                <label for="mc1"></label>
+                            </div>
+                            <div class="product-page__check-box-round-text">
+                                <p>
+                                    4 сира L 410г 30см
+                                </p>
+                                <span>+ 110 грн</span>
+                            </div>
+                        </div>
+                        <div class="product-page__check-box-round">
+                            <div class="round">
+                                <input type="radio" name="field" id="mc2">
+                                <label for="mc2"></label>
+                            </div>
+                            <div class="product-page__check-box-round-text">
+                                <p>
+                                    4 сира L 410г 30см
+                                </p>
+                                <span>+ 110 грн</span>
+                            </div>
+                        </div>
+                        <div class="product-page__check-box-round">
+                            <div class="round">
+                                <input type="radio" name="field" id="mc3">
+                                <label for="mc3"></label>
+                            </div>
+                            <div class="product-page__check-box-round-text">
+                                <p>
+                                    4 сира L 410г 30см
+                                </p>
+                                <span>+ 110 грн</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-page__text">
+                    <div class="product-page__check-box-round-wrapper">
+                        <p>+ додаткові інгрідієнти</p>
+                        <span>Виберіть варіант</span>
+                        <div class='checkbox__list-menu'>
+                            <div class="form-group">
+                                <input type="checkbox" id="product-one">
+                                <label for="product-one">+ Сир Гауда <span>+35 грн</span></label>
+                            </div>
+                            <div class='checkbox__list-count'>
+                                <div class="counter-elem__arrow counter-elem__minus minus">-</div>
+                                <input readonly type="text" class="counter-elem__input splash-input"
+                                       value="0"/>
+                                <div class="counter-elem__arrow counter-elem__plus plus">+</div>
+                            </div>
+                        </div>
+                        <div class='checkbox__list-menu'>
+                            <div class="form-group">
+                                <input type="checkbox" id="product-two">
+                                <label for="product-two">+ Сир Фєта <span> +35 грн </span></label>
+                            </div>
+                            <div class='checkbox__list-count'>
+                                <div class="counter-elem__arrow counter-elem__minus minus">-</div>
+                                <input readonly type="text" class="counter-elem__input splash-input"
+                                       value="0"/>
+                                <div class="counter-elem__arrow counter-elem__plus plus">+</div>
+                            </div>
+                        </div>
+                        <div class='checkbox__list-menu'>
+                            <div class="form-group">
+                                <input type="checkbox" id="product-three">
+                                <label for="product-three">+ Сир Горгонзола <span>+20 грн</span></label>
+                            </div>
+                            <div class='checkbox__list-count'>
+                                <div class="counter-elem__arrow counter-elem__minus minus">-</div>
+                                <input readonly type="text" class="counter-elem__input splash-input"
+                                       value="0"/>
+                                <div class="counter-elem__arrow counter-elem__plus plus">+</div>
+                            </div>
+                        </div>
+                        <div class='checkbox__list-menu'>
+                            <div class="form-group">
+                                <input type="checkbox" id="product-four">
+                                <label for="product-four">+ Сир Горгонзола <span>+20 грн</span></label>
+                            </div>
+                            <div class='checkbox__list-count'>
+                                <div class="counter-elem__arrow counter-elem__minus minus">-</div>
+                                <input readonly type="text" class="counter-elem__input splash-input"
+                                       value="0"/>
+                                <div class="counter-elem__arrow counter-elem__plus plus">+</div>
+                            </div>
+                        </div>
+                        <div class='checkbox__list-menu'>
+                            <div class="form-group">
+                                <input type="checkbox" id="product-five">
+                                <label for="product-five">+ Сир Горгонзола <span>+20 грн</span></label>
+                            </div>
+                            <div class='checkbox__list-count'>
+                                <div class="counter-elem__arrow counter-elem__minus minus">-</div>
+                                <input readonly type="text" class="counter-elem__input splash-input"
+                                       value="0"/>
+                                <div class="counter-elem__arrow counter-elem__plus plus">+</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="add-to-cart-button-wrapper">
+            <div class="add-to-cart-button">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Додати до замовлення за <span>250 грн</span>
+                </button>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-wrapper modal-dialog-centered modal-dialog-scrollable ">
+                <div class="modal-content">
+                    <div class="modal__header">
+                        <h5 class="">5 товарів</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal__body">
+                        <div class="modal__min-order-text">
+                            Мінімальне замовлення від <span>300 грн</span>
+                        </div>
+                        <div class="modal__wrapper">
+                            <div class="modal__image-description">
+                                <div class="modal__image">
+                                    <img src="./assets/images/pizza.webp" alt="modal-pizza"/>
+                                </div>
+                                <div class="modal__text-wrapper">
+                                    <div class="modal__title-wrapper">
+                                        <p class="modal__title">
+                                            Піца 4 Сира
+                                        </p>
+                                        <span class="modal__title-description">
+                                            5 сирів XL 860г 45см
+                                        </span>
+                                    </div>
+                                    <div class="modal__price-wrapper">
+                                        <div class="modal__price">
+                                            від 129 грн
+                                        </div>
+                                        <div class="modal__add">
+                                            +
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal__wrapper">
+                            <div class="modal__image-description">
+                                <div class="modal__image">
+                                    <img src="./assets/images/pizza.webp" alt="modal-pizza"/>
+                                </div>
+                                <div class="modal__text-wrapper">
+                                    <div class="modal__title-wrapper">
+                                        <p class="modal__title">
+                                            Піца 4 Сира
+                                        </p>
+                                        <span class="modal__title-description">
+                                            5 сирів XL 860г 45см
+                                        </span>
+                                    </div>
+                                    <div class="modal__price-wrapper">
+                                        <div class="modal__price">
+                                            від 129 грн
+                                        </div>
+                                        <div class="modal__add">
+                                            +
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal__wrapper">
+                            <div class="modal__image-description">
+                                <div class="modal__image">
+                                    <img src="./assets/images/pizza.webp" alt="modal-pizza"/>
+                                </div>
+                                <div class="modal__text-wrapper">
+                                    <div class="modal__title-wrapper">
+                                        <p class="modal__title">
+                                            Піца 4 Сира
+                                        </p>
+                                        <span class="modal__title-description">
+                                            5 сирів XL 860г 45см
+                                        </span>
+                                    </div>
+                                    <div class="modal__price-wrapper">
+                                        <div class="modal__price">
+                                            від 129 грн
+                                        </div>
+                                        <div class="modal__add">
+                                            +
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer modal__footer">
+                        <div class="modal__text">
+                            <textarea maxlength="150" placeholder="Коментар до замовлення" rows="2"></textarea>
+                        </div>
+                        <div class="modal__footer-price">
+                            <p>Сума замовлення:</p>
+                            <span>379 uhy</span>
+                        </div>
+                        <div class="modal__button">
+                            <button>
+                                Перейти до оформлення
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</main>
+<footer>
+</footer>
+<script
+        src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+<!--<script src="./assets/js/modules/jquery.cookie.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+<script src="build/js/app.js"></script>
+<!--<script>-->
+<!--    $(function () {-->
+<!--        new WOW().init();-->
+<!--    });-->
+<!--</script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+</body>
+
+</html>
